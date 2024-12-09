@@ -1,14 +1,14 @@
 /* Preload images */
-body::after{
-  content : url(../img/loading.gif);
+body::after {
+  content: url(../img/loading.gif);
   display: none;
 }
 
-body.lb-disable-scrolling{
+body.lb-disable-scrolling {
   overflow: hidden;
 }
 
-.lightboxOverlay{
+.lightboxOverlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -19,7 +19,7 @@ body.lb-disable-scrolling{
   display: none;
 }
 
-.lightbox{
+.lightbox {
   position: absolute;
   left: 0;
   width: 100%;
@@ -29,18 +29,18 @@ body.lb-disable-scrolling{
   font-weight: normal;
 }
 
-.lightbox .lb-image{
+.lightbox .lb-image {
   display: block;
   height: auto;
   max-width: inherit;
   border-radius: 3px;
 }
 
-.lightbox a img{
+.lightbox a img {
   border: none;
 }
 
-.lb-outerContainer{
+.lb-outerContainer {
   position: relative;
   background-color: white;
   *zoom: 1;
@@ -50,17 +50,17 @@ body.lb-disable-scrolling{
   border-radius: 4px;
 }
 
-.lb-outerContainer::after{
+.lb-outerContainer::after {
   content: "";
   display: table;
   clear: both;
 }
 
-.lb-container{
+.lb-container {
   padding: 4px;
 }
 
-.lb-loader{
+.lb-loader {
   position: absolute;
   top: 43%;
   left: 0;
@@ -70,15 +70,15 @@ body.lb-disable-scrolling{
   line-height: 0;
 }
 
-.lb-cancel{
+.lb-cancel {
   display: block;
   width: 32px;
   height: 32px;
   margin: 0 auto;
-  background : url(../img/loading.gif) 0% 0% / auto auto no-repeat scroll padding-box border-box transparent;
+  background: url(../img/loading.gif) 0% 0% / auto auto no-repeat scroll padding-box border-box transparent;
 }
 
-.lb-nav{
+.lb-nav {
   position: absolute;
   top: 0;
   left: 0;
@@ -87,26 +87,27 @@ body.lb-disable-scrolling{
   z-index: 10;
 }
 
-.lb-container > .nav{
+.lb-container>.nav {
   left: 0;
 }
 
-.lb-nav a{
+.lb-nav a {
   outline: none;
   background-image: url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
 }
 
-.lb-prev, .lb-next{
+.lb-prev,
+.lb-next {
   height: 100%;
   cursor: pointer;
   display: block;
 }
 
-.lb-nav a.lb-prev{
+.lb-nav a.lb-prev {
   width: 34%;
   left: 0;
   float: left;
-  background : url(../img/prev.png) left 48% / auto auto no-repeat scroll padding-box border-box transparent;
+  background: url(../img/prev.png) left 48% / auto auto no-repeat scroll padding-box border-box transparent;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
@@ -115,16 +116,16 @@ body.lb-disable-scrolling{
   transition: opacity 0.6s;
 }
 
-.lb-nav a.lb-prev{
+.lb-nav a.lb-prev {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
 
-.lb-nav a.lb-next{
+.lb-nav a.lb-next {
   width: 64%;
   right: 0;
   float: right;
-  background : url(../img/next.png) right 48% / auto auto no-repeat scroll padding-box border-box transparent;
+  background: url(../img/next.png) right 48% / auto auto no-repeat scroll padding-box border-box transparent;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
@@ -133,12 +134,12 @@ body.lb-disable-scrolling{
   transition: opacity 0.6s;
 }
 
-.lb-nav a.lb-next{
+.lb-nav a.lb-next {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
 
-.lb-dataContainer{
+.lb-dataContainer {
   margin: 0 auto;
   padding-top: 5px;
   *zoom: 1;
@@ -151,31 +152,31 @@ body.lb-disable-scrolling{
   border-bottom-right-radius: 4px;
 }
 
-.lb-dataContainer::after{
+.lb-dataContainer::after {
   content: "";
   display: table;
   clear: both;
 }
 
-.lb-data{
+.lb-data {
   padding: 0 4px;
   color: #ccc;
 }
 
-.lb-data .lb-details{
+.lb-data .lb-details {
   width: 85%;
   float: left;
   text-align: left;
   line-height: 1.1em;
 }
 
-.lb-data .lb-caption{
+.lb-data .lb-caption {
   font-size: 13px;
   font-weight: bold;
   line-height: 1em;
 }
 
-.lb-data .lb-number{
+.lb-data .lb-number {
   display: block;
   clear: left;
   padding-bottom: 1em;
@@ -183,12 +184,12 @@ body.lb-disable-scrolling{
   color: #999999;
 }
 
-.lb-data .lb-close{
+.lb-data .lb-close {
   display: block;
   float: right;
   width: 30px;
   height: 30px;
-  background : url(../img/close.png) right top / auto auto no-repeat scroll padding-box border-box transparent;
+  background: url(../img/close.png) right top / auto auto no-repeat scroll padding-box border-box transparent;
   text-align: right;
   outline: none;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
@@ -199,9 +200,8 @@ body.lb-disable-scrolling{
   transition: opacity 0.2s;
 }
 
-.lb-data .lb-close:hover{
+.lb-data .lb-close:hover {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
-
