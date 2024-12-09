@@ -55,11 +55,11 @@
 
 	<nav class="nav">
 		<ul>
-		<li onClick="menu()"><a href="index.html">市軸稲荷神社について</a></li>
-		<li onClick="menu()"><a href="event.html">祭典行事</a></li>
-		<li onClick="menu()"><a href="pray.html">御祈祷</a></li>
-		<li onClick="menu()"><a href="info.html">交通アクセス</a></li>
-		<li onClick="menu()"><a href="faq.html">よくあるご質問</a></li>
+		<li onClick="menu()"><a href="main.php">市軸稲荷神社について</a></li>
+		<li onClick="menu()"><a href="event.php">祭典行事</a></li>
+		<li onClick="menu()"><a href="pray.php">御祈祷</a></li>
+		<li onClick="menu()"><a href="info.php">交通アクセス</a></li>
+		<li onClick="menu()"><a href="faq.php">よくあるご質問</a></li>
 		</ul>
 	</nav>
 
@@ -75,7 +75,7 @@
 
 
 	<div class="w-container">
-		<div id="pankuzu"><a href="index.html">トップ</a> ＞ 祭典行事</div>
+		<div id="pankuzu"><a href="main.php">トップ</a> ＞ 祭典行事</div>
 	</div><!--w-container end-->
 
 
@@ -85,7 +85,7 @@
 
 			<h2 class="lowerPage-heading-decoration">祭典行事</h2>
 			<hr class="no">
-			<h3><img src="img/setsubun.png" alt="節分アイコン" class="svgicon01">市軸稲荷神社 節分祭<br class="sp"><span class="sp">　　</span>（毎年2月3日斎行）</h3>
+			<h3><img src="img/setsubun.png" alt="節分アイコン" class="svgicon01">市軸稲荷神社 節分祭<br class="space"><span class="space">　　</span>（毎年2月3日斎行）</h3>
 			<h4>～お多福大神～</h4>
 			<p class="emp lihei18">市軸稲荷神社では、境内末社であるお多福社にお多福大神をお祀りしています。<br>
 			当社のお多福さんは<ruby>瀨織津比咩大神<rt>せおりつひめおおかみ</rt></ruby>で、大祓詞の中に“速川の瀬に坐す神”としてみられるお祓いの神様です。<br>
@@ -131,7 +131,7 @@
 			<hr class="no">
 			<div class="flex2">
 				<div class="flex-child05">
-				<img src="img/event_img04.png" alt="簪祈願" width="100%" class="sp"><br class="sp">
+				<img src="img/event_img04.png" alt="簪祈願" width="100%" class="space"><br class="space">
 					<div class="flex2">
 						<div class="flex-child02">
 							<h6><img src="img/hana.png" alt="花アイコン" class="svgicon01">花かんざし<img src="img/hana.png" alt="花アイコン" class="svgicon01"></h6><br>
@@ -146,14 +146,6 @@
 				<div class="flex-child04">
 				</div>
 			</div>
-
-
-
-
-
-
-
-
 			</div><!--contentsbg2 end-->
 		</div><!--w-container end-->
 	</section><!--sec5 end-->
@@ -169,14 +161,14 @@
 
 				<div class="bunkatsu3"><img src="img/event_img05.jpg" alt="除夜祭 歳旦祭(月次祭)">
 				<div class="f-item1"><div class="item1cont"><p class="tx-c lihei14">12月31日 23時45分 除夜祭<br>正月 1月1日 14時 歳旦祭(月次祭)</p></div></div>
-				<div class="item2cont"><p class="tj">お正月は1日より随時、御祈祷をお請けいたします。<br>
+				<div class="item2cont"><p class="text-just">お正月は1日より随時、御祈祷をお請けいたします。<br>
 				毎年、大勢の方々がお参りに訪れ、厄除・家内安全・社運隆昌・入試合格などさまざまな御祈祷をお受けになります。<br>
 				御祈祷の受付は社務所（授与所）までお越しください。</p></div>
 				</div>
 
 				<div class="bunkatsu3"><img src="img/event_img06.jpg" alt="節分祭（2月3日）">
 				<div class="f-item1"><div class="item1cont"><p class="tx-c lihei14">節分祭（2月3日）</p></div></div>
-				<div class="item2cont"><p class="tj"><span class="empcolor">1月26日～2月3日　お多福門設置</span><br><br>
+				<div class="item2cont"><p class="text-just"><span class="empcolor">1月26日～2月3日　お多福門設置</span><br><br>
 				2月3日<br>
 				●お火焚き祭<br>
 				11時頃より火入れ式を執り行います。古神札等を随時お預かりいたします。<br>
@@ -189,25 +181,25 @@
 
 				<div class="bunkatsu3"><img src="img/event_img07.jpg" alt="4月 春季大祭">
 				<div class="f-item1"><div class="item1cont"><p class="tx-c lihei14">4月 春季大祭</p></div></div>
-				<div class="item2cont"><p class="tj">4月の第3日曜日あるいは第4日曜日（10時斎行）<br>その年の豊作を祈念するとともに、崇敬者の皆さまの家内安全・無病息災をお祈りいたします。<br>
+				<div class="item2cont"><p class="text-just">4月の第3日曜日あるいは第4日曜日（10時斎行）<br>その年の豊作を祈念するとともに、崇敬者の皆さまの家内安全・無病息災をお祈りいたします。<br>
  				祭典に続き、加持祈祷・御神楽奉納をいたします。<br> 御神楽の受付は大祭当日まで受け付けております。</p></div>
 				</div>
 
 				<div class="bunkatsu3"><img src="img/event_img08.jpg" alt="10月 秋季大祭">
 				<div class="f-item1"><div class="item1cont"><p class="tx-c lihei14">10月 秋季大祭</p></div></div>
-				<div class="item2cont"><p class="tj">10月第3日曜日あるいは第4日曜日（10時斎行）<br>その年の収穫を感謝し、崇敬者の皆さまが残りの数カ月を無事に過ごせますようお祈りいたします。<br>
+				<div class="item2cont"><p class="text-just">10月第3日曜日あるいは第4日曜日（10時斎行）<br>その年の収穫を感謝し、崇敬者の皆さまが残りの数カ月を無事に過ごせますようお祈りいたします。<br>
 				 祭典に続き、加持祈祷・御神楽奉納をいたします。<br> 御神楽の受付は大祭当日まで受け付けております。</p></div>
 				</div>
 
 				<div class="bunkatsu3"><img src="img/event_img09.jpg" alt="月次祭 おせんぎょ祭">
 				<div class="f-item1"><div class="item1cont"><p class="tx-c lihei14">月次祭（毎月1日・15日 14時斎行)<br>1月15日 14時 おせんぎょ祭(月次祭)</p></div></div>
-				<div class="item2cont"><p class="tj">当社では毎月2回、御本殿にて月次祭を斎行いたします。<br>毎回、鳴釜神事を執り行っております。<br>
+				<div class="item2cont"><p class="text-just">当社では毎月2回、御本殿にて月次祭を斎行いたします。<br>毎回、鳴釜神事を執り行っております。<br>
 				ご参列いただけますので、ご希望の方は社務所までお申し出ください。</p></div>
 				</div>
 
 				<div class="bunkatsu3"><img src="img/event_img10.jpg" alt="星祭">
 				<div class="f-item1"><div class="item1cont"><p class="tx-c lihei14">星祭</p></div></div>
-				<div class="item2cont"><p class="tj">その年1年間の家内安全・無病息災等を大神様にお祈りいたします。<br>寒の入りより2月2日まで毎日ご祈祷をご奉仕いたします。<br>
+				<div class="item2cont"><p class="text-just">その年1年間の家内安全・無病息災等を大神様にお祈りいたします。<br>寒の入りより2月2日まで毎日ご祈祷をご奉仕いたします。<br>
 				星祭のご祈祷をいたしました御神札・御守を授与いたします。<br><br>受付期間｜12月1日～翌年1月15日まで<br>御神札・御守の授与｜2月3日より随時</p></div>
 				</div>
 
@@ -237,18 +229,18 @@
 
 	<footer class="footer">
 
-		<div class="pseudofooter">
+		<div class="footer-wrap">
 
 			<div class="footer-container w-container">
 
 				<div class="footer-site">
 					<ul class="footer-menu">
-					<li><a href="index.html">市軸稲荷神社について</a></li>
-					<li><a href="event.html">祭典行事</a></li>
-					<li><a href="pray.html">御祈祷</a></li>
-					<li><a href="info.html">交通アクセス</a></li>
-					<li><a href="faq.html">よくあるご質問</a></li>
-					</ul><br class="sp">
+					<li><a href="main.php">市軸稲荷神社について</a></li>
+					<li><a href="event.php">祭典行事</a></li>
+					<li><a href="pray.php">御祈祷</a></li>
+					<li><a href="info.php">交通アクセス</a></li>
+					<li><a href="faq.php">よくあるご質問</a></li>
+					</ul><br class="space">
 				</div>
 
 				<div class="footer-sns">
@@ -261,10 +253,10 @@
 
 			</div><!--footer-container w-container end-->
 
-		</div><!--pseudofooter 通常フッター部分end-->
+		</div><!--footer-wrap 通常フッター部分end-->
 
 		<div class="footer-copy">
-			<p>&copy;2024-<span id="thisYear"></span>&nbsp;<a href="." class="onmouse">市軸稲荷神社</a></p>
+			<p>&copy;2024-<span id="thisYear"></span>&nbsp;<a href="main.php" class="onmouse">市軸稲荷神社</a></p>
 		</div>
 
 	</footer>

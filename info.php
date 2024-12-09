@@ -38,7 +38,7 @@
 		<h1>「市軸稲荷神社」は、豊中市にある神社です。お車や電車からの交通アクセスのご案内をさせていただきます。</h1>
 		<div class="header-container w-container">
 			<div class="site">
-				<a href="https://ichijikuinarijinja.net/"><img src="img/logo.png" alt="市軸稲荷神社" width="340"></a>
+				<a href="main.php"><img src="img/logo.png" alt="市軸稲荷神社" width="340"></a>
 			</div>
 
 			<button class="navbtn" onClick="menu()">
@@ -55,11 +55,11 @@
 
 	<nav class="nav">
 		<ul>
-		<li onClick="menu()"><a href="https://ichijikuinarijinja.net/">市軸稲荷神社について</a></li>
-		<li onClick="menu()"><a href="https://ichijikuinarijinja.net/event.html">祭典行事</a></li>
-		<li onClick="menu()"><a href="https://ichijikuinarijinja.net/pray.html">御祈祷</a></li>
-		<li onClick="menu()"><a href="https://ichijikuinarijinja.net/info.html">交通アクセス</a></li>
-		<li onClick="menu()"><a href="https://ichijikuinarijinja.net/faq.html">よくあるご質問</a></li>
+			<li onClick="menu()"><a href="main.php">市軸稲荷神社について</a></li>
+			<li onClick="menu()"><a href="event.php">祭典行事</a></li>
+			<li onClick="menu()"><a href="pray.php">御祈祷</a></li>
+			<li onClick="menu()"><a href="info.php">交通アクセス</a></li>
+			<li onClick="menu()"><a href="faq.php">よくあるご質問</a></li>
 		</ul>
 	</nav>
 
@@ -75,7 +75,7 @@
 
 
 	<div class="w-container">
-		<div id="pankuzu"><a href="https://ichijikuinarijinja.net/">トップ</a> ＞ 交通アクセス</div>
+		<div id="pankuzu"><a href="main.php">トップ</a> ＞ 交通アクセス</div>
 	</div><!--w-container end-->
 
 
@@ -146,22 +146,22 @@
 
 	<footer class="footer">
 
-		<div class="pseudofooter">
+		<div class="footer-wrap">
 
 			<div class="footer-container w-container">
 
 				<div class="footer-site">
 					<ul class="footer-menu">
-					<li><a href="https://ichijikuinarijinja.net/">市軸稲荷神社について</a></li>
-					<li><a href="https://ichijikuinarijinja.net/event.html">祭典行事</a></li>
-					<li><a href="https://ichijikuinarijinja.net/pray.html">御祈祷</a></li>
-					<li><a href="https://ichijikuinarijinja.net/info.html">交通アクセス</a></li>
-					<li><a href="https://ichijikuinarijinja.net/faq.html">よくあるご質問</a></li>
-					</ul><br class="sp">
+						<li><a href="main.php">市軸稲荷神社について</a></li>
+						<li><a href="event.php">祭典行事</a></li>
+						<li><a href="pray.php">御祈祷</a></li>
+						<li><a href="info.php">交通アクセス</a></li>
+						<li><a href="faq.php">よくあるご質問</a></li>
+					</ul><br class="space">
 				</div>
 
 				<div class="footer-sns">
-				<div class="spwi100"><a href="https://ichijikuinarijinja.net/"><span class="f-14">刀根山の地主神　</span><span class="f-20">市軸稲荷神社</span></a></div>
+				<div class="spwi100"><a href="main.php"><span class="f-14">刀根山の地主神　</span><span class="f-20">市軸稲荷神社</span></a></div>
 				<span class="disinlb"><img src="img/f-bakicon2.png" width="40px"></span><span class="disinlb"><img src="img/f-bakicon.png" width="40px"></span>
 				<span class="disinlb"><a href="https://www.instagram.com/ichijikuinarijinja/" class="snsbtn" target="_blank"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a></span>
 				<br><br>
@@ -170,10 +170,10 @@
 
 			</div><!--footer-container w-container end-->
 
-		</div><!--pseudofooter 通常フッター部分end-->
+		</div><!--footer-wrap 通常フッター部分end-->
 
 		<div class="footer-copy">
-			<p>&copy;2024-<span id="thisYear"></span>&nbsp;<a href="https://ichijikuinarijinja.net/" class="onmouse">市軸稲荷神社</a></p>
+			<p>&copy;2024-<span id="thisYear"></span>&nbsp;<a href="main.php" class="onmouse">市軸稲荷神社</a></p>
 		</div>
 
 	</footer>

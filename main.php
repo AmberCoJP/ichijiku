@@ -37,7 +37,7 @@
 		<h1>豊中市にある神社「市軸稲荷神社」では、ご祈祷 厄除け 商売繁盛 安産祈願等お受けいたします。</h1>
 		<div class="header-container w-container">
 			<div class="site">
-				<a href="https://ichijikuinarijinja.net/"><img src="img/logo.png" alt="市軸稲荷神社" width="340"></a>
+				<a href="main.php"><img src="img/logo.png" alt="市軸稲荷神社" width="340"></a>
 			</div>
 
 			<button class="navbtn" onClick="menu()">
@@ -54,13 +54,13 @@
 
 	<nav class="nav">
 		<ul>
-		<li onClick="menu()"><a href="">市軸稲荷神社について</a></li>
-		<li onClick="menu()"><a href="">祭典行事</a></li> <!-- 作成した画面に変更 -->
-		<li onClick="menu()"><a href="">御祈祷</a></li>
-		<li onClick="menu()"><a href="">交通アクセス</a></li>
-		<li onClick="menu()"><a href="">よくあるご質問</a></li>
-		<!-- <li onClick="menu()"><a href="https://ichijikuinarijinja.net/faq.html">よくあるご質問</a></li> -->
+			<li onClick="menu()"><a href="main.php">市軸稲荷神社について</a></li>
+			<li onClick="menu()"><a href="event.php">祭典行事</a></li>
+			<li onClick="menu()"><a href="pray.php">御祈祷</a></li>
+			<li onClick="menu()"><a href="info.php">交通アクセス</a></li>
+			<li onClick="menu()"><a href="faq.php">よくあるご質問</a></li>
 		</ul>
+		<!-- <li onClick="menu()"><a href="main.phpfaq.html">よくあるご質問</a></li> -->
 	</nav>
 
 	<section class="hero"><!-- メインビジュアル -->
@@ -110,11 +110,11 @@
 			<hr class="decoline">
 			<div class="flex2">
 				<div class="flex-child03">
-					<div class="c-btn btn07 btwi"><a href="event.html" class="emp">祭典行事</a></div>
+					<div class="c-btn btn07 btwi"><a href="event.php" class="emp">祭典行事</a></div>
 					<img src="img/index_img01.jpg" alt="祭典行事" width="100%">
 				</div>
 				<div class="flex-child03">
-					<div class="c-btn btn07 btwi"><a href="pray.html" class="emp">御祈祷</a></div>
+					<div class="c-btn btn07 btwi"><a href="pray.php" class="emp">御祈祷</a></div>
 					<img src="img/index_img02.jpg" alt="御祈祷" width="100%">
 				</div>
 			</div>
@@ -138,7 +138,7 @@
 			<div class="flex2">
 				<div class="flex-child05">
 				<dl>
-				<dt>一. 境内末社　五社大明神<br class="sp"><span class="sp">　 </span>【全七社（全九柱）】</dt>
+				<dt>一. 境内末社　五社大明神<br class="space"><span class="space">　 </span>【全七社（全九柱）】</dt>
 				<dd>岩姫大神・［三草大神・五社大神・大山祇大神］・十柱大神・春日大神・中禅寺大神・若宮大神・三島大神<dd>
 				</dl>
 				</div>
@@ -184,16 +184,16 @@
 	</section><!--sec3 end-->
 
 	<footer class="footer">
-		<div class="pseudofooter">
+		<div class="footer-wrap">
 			<div class="footer-container w-container">
 				<div class="footer-site">
 					<ul class="footer-menu">
-					<li><a href="https://ichijikuinarijinja.net/">市軸稲荷神社について</a></li>
-					<li><a href="https://ichijikuinarijinja.net/event.html">祭典行事</a></li>
-					<li><a href="https://ichijikuinarijinja.net/pray.html">御祈祷</a></li>
-					<li><a href="https://ichijikuinarijinja.net/info.html">交通アクセス</a></li>
-					<li><a href="https://ichijikuinarijinja.net/faq.html">よくあるご質問</a></li>
-					</ul><br class="sp">
+						<li><a href="main.php">市軸稲荷神社について</a></li>
+						<li><a href="event.php">祭典行事</a></li>
+						<li><a href="pray.php">御祈祷</a></li>
+						<li><a href="info.php">交通アクセス</a></li>
+						<li><a href="faq.php">よくあるご質問</a></li>
+					</ul><br class="space">
 				</div>
 				<div class="footer-sns">
 				<div class="spwi100"><a href="index.html"><span class="f-14">刀根山の地主神　</span><span class="f-20">市軸稲荷神社</span></a></div>
@@ -203,9 +203,9 @@
 				</div>
 				<p class="c-arra2"><span class="header-details">大阪府豊中市刀根山2丁目2番33号</span><br>TEL/FAX　<a href="tel:0668573618">06-6857-3618</a></p>
 			</div><!--footer-container w-container end-->
-		</div><!--pseudofooter 通常フッター部分end-->
+		</div><!--footer-wrap 通常フッター部分end-->
 		<div class="footer-copy">
-			<p>&copy;2024-<span id="thisYear"></span>&nbsp;<a href="https://ichijikuinarijinja.net/" class="onmouse">市軸稲荷神社</a></p>
+			<p>&copy;2024-<span id="thisYear"></span>&nbsp;<a href="main.php" class="onmouse">市軸稲荷神社</a></p>
 		</div>
 	</footer>
 

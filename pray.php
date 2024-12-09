@@ -38,7 +38,7 @@
 		<h1>豊中市にある神社「市軸稲荷神社」では、商売繁盛 病気平癒 厄除開運 お宮参り 七五三 安産祈願から地鎮祭までお受けしております。</h1>
 		<div class="header-container w-container">
 			<div class="site">
-				<a href="https://ichijikuinarijinja.net/"><img src="img/logo.png" alt="市軸稲荷神社" width="340"></a>
+				<a href="main.php"><img src="img/logo.png" alt="市軸稲荷神社" width="340"></a>
 			</div>
 
 			<button class="navbtn" onClick="menu()">
@@ -55,11 +55,11 @@
 
 	<nav class="nav">
 		<ul>
-		<li onClick="menu()"><a href="https://ichijikuinarijinja.net/">市軸稲荷神社について</a></li>
-		<li onClick="menu()"><a href="https://ichijikuinarijinja.net/event.html">祭典行事</a></li>
-		<li onClick="menu()"><a href="https://ichijikuinarijinja.net/pray.html">御祈祷</a></li>
-		<li onClick="menu()"><a href="https://ichijikuinarijinja.net/info.html">交通アクセス</a></li>
-		<li onClick="menu()"><a href="https://ichijikuinarijinja.net/faq.html">よくあるご質問</a></li>
+			<li onClick="menu()"><a href="main.php">市軸稲荷神社について</a></li>
+			<li onClick="menu()"><a href="event.php">祭典行事</a></li>
+			<li onClick="menu()"><a href="pray.php">御祈祷</a></li>
+			<li onClick="menu()"><a href="info.php">交通アクセス</a></li>
+			<li onClick="menu()"><a href="faq.php">よくあるご質問</a></li>
 		</ul>
 	</nav>
 
@@ -75,7 +75,7 @@
 
 
 	<div class="w-container">
-		<div id="pankuzu"><a href="https://ichijikuinarijinja.net/">トップ</a> ＞ 御祈祷</div>
+		<div id="pankuzu"><a href="main.php">トップ</a> ＞ 御祈祷</div>
 	</div><!--w-container end-->
 
 
@@ -90,18 +90,18 @@
 
 			<table class="b-tab">
 			<tr class="col1"><td class="bkacen">種類</td><td class="bkacen">初穂料</td><td class="bkacen">備考</td></tr>
-			<tr><td class="bkacen">通常<br class="sp">祈祷</td><td class="btsp bkacen">7,000円以上</td><td>願意（祈願内容）により異なります。<br>詳しくは当社社務所までお問い合わせください。</td></tr>
-			<tr><td class="bkacen">特別<br class="sp">祈祷</td><td class="bkacen">10,000円～</td><td>翌日より1週間、毎日ご祈祷いたします。</td></tr>
+			<tr><td class="bkacen">通常<br class="space">祈祷</td><td class="btsp bkacen">7,000円以上</td><td>願意（祈願内容）により異なります。<br>詳しくは当社社務所までお問い合わせください。</td></tr>
+			<tr><td class="bkacen">特別<br class="space">祈祷</td><td class="bkacen">10,000円～</td><td>翌日より1週間、毎日ご祈祷いたします。</td></tr>
 			</table>
 			<br>
 
 			<hr class="no">
 			<h4 class="ab">【団体での祈祷をご希望の方】</h4>
-			<p>初穂料　30,000円以上にて受け付けております。<br>詳細は市軸稲荷神社 社務所<br class="sp">　( <a href="tel:0668573618" class="unli">06-6857-3618</a> )　までお問い合わせください。</p>
+			<p>初穂料　30,000円以上にて受け付けております。<br>詳細は市軸稲荷神社 社務所<br class="space">　( <a href="tel:0668573618" class="unli">06-6857-3618</a> )　までお問い合わせください。</p>
 
 			<hr class="no">
 			<h4 class="ab">【出張祭典のご案内】</h4>
-			<p>初穂料　50,000円よりお請けいたします。<br>（神饌物は神社で準備いたします。）<br>詳細は市軸稲荷神社 社務所<br class="sp">　( <a href="tel:0668573618" class="unli">06-6857-3618</a> )　までお問い合わせください。</p>
+			<p>初穂料　50,000円よりお請けいたします。<br>（神饌物は神社で準備いたします。）<br>詳細は市軸稲荷神社 社務所<br class="space">　( <a href="tel:0668573618" class="unli">06-6857-3618</a> )　までお問い合わせください。</p>
 
 
 			<hr class="no">
@@ -130,7 +130,7 @@
 			</table>
 			</div>
 
-			<div class="sp">
+			<div class="space">
 			<h5 class="ab">厄年表（数え年）</h5>
 			<table class="b-tab2">
 			<tr><td>男</td><td>25歳</td><td>41歳</td><td>42歳</td><td>43歳</td><td colspan="2">61歳</td></tr>
@@ -271,18 +271,18 @@
 
 	<footer class="footer">
 
-		<div class="pseudofooter">
+		<div class="footer-wrap">
 
 			<div class="footer-container w-container">
 
 				<div class="footer-site">
 					<ul class="footer-menu">
-					<li><a href="https://ichijikuinarijinja.net/">市軸稲荷神社について</a></li>
-					<li><a href="https://ichijikuinarijinja.net/event.html">祭典行事</a></li>
-					<li><a href="https://ichijikuinarijinja.net/pray.html">御祈祷</a></li>
-					<li><a href="https://ichijikuinarijinja.net/info.html">交通アクセス</a></li>
-					<li><a href="https://ichijikuinarijinja.net/faq.html">よくあるご質問</a></li>
-					</ul><br class="sp">
+						<li><a href="main.php">市軸稲荷神社について</a></li>
+						<li><a href="event.php">祭典行事</a></li>
+						<li><a href="pray.php">御祈祷</a></li>
+						<li><a href="info.php">交通アクセス</a></li>
+						<li><a href="faq.php">よくあるご質問</a></li>
+					</ul><br class="space">
 				</div>
 
 				<div class="footer-sns">
@@ -295,10 +295,10 @@
 
 			</div><!--footer-container w-container end-->
 
-		</div><!--pseudofooter 通常フッター部分end-->
+		</div><!--footer-wrap 通常フッター部分end-->
 
 		<div class="footer-copy">
-			<p>&copy;2024-<span id="thisYear"></span>&nbsp;<a href="https://ichijikuinarijinja.net/" class="onmouse">市軸稲荷神社</a></p>
+			<p>&copy;2024-<span id="thisYear"></span>&nbsp;<a href="main.php" class="onmouse">市軸稲荷神社</a></p>
 		</div>
 
 	</footer>
