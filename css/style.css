@@ -2,7 +2,8 @@
 
 /* 基本 */
 :root {
-	/*--v-space: clamp(90px, 9vw, 120px);*/	/*テンプレ初期値*/
+	/*--v-space: clamp(90px, 9vw, 120px);*/
+	/*テンプレ初期値*/
 	--v-space: clamp(90px, 5vw, 120px);
 }
 
@@ -14,7 +15,15 @@ body {
 	font-family: "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "游明朝体", "Yu Mincho", YuMincho, "MS P明朝", "MS PMincho", serif;
 }
 
-h1, h2, h3, h4, h5, h6, p, figure, ul {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -42,7 +51,8 @@ img {
 
 /* 横幅と左右の余白 */
 .w-container {
-	/*width: min(92%, 1166px);*/	/*テンプレ初期値*/
+	/*width: min(92%, 1166px);*/
+	/*テンプレ初期値*/
 	width: min(92%, 1000px);
 	margin: auto;
 	position: relative;
@@ -50,7 +60,8 @@ img {
 
 /* ヘッダー */
 .header {
-	/*height: 112px;*/	/*テンプレ初期値*/
+	/*height: 112px;*/
+	/*テンプレ初期値*/
 	background-color: #ffffff;
 }
 
@@ -60,13 +71,15 @@ img {
 	align-items: center;
 	height: 120px;
 }
-.header-details{
+
+.header-details {
 	/*font-size: 16px;*/
-	font-size: clamp(12px,1.5vw,16px);
+	font-size: clamp(12px, 1.5vw, 16px);
 	line-height: 1.5;
 }
+
 /* H1 */
-h1{
+h1 {
 	margin-top: 0;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -96,6 +109,7 @@ h1{
 .navbtn .fa-bars {
 	display: revert;
 }
+
 .open .navbtn .fa-bars {
 	display: none;
 }
@@ -103,6 +117,7 @@ h1{
 .navbtn .fa-times {
 	display: none;
 }
+
 .open .navbtn .fa-times {
 	display: revert;
 }
@@ -114,21 +129,24 @@ h1{
 }
 
 /* 会社住所・TEL */
-.company{
+.company {
 	text-align: right;
 }
-.tel{
+
+.tel {
 	color: #e34c41;
 	/*font-size: 33px;*/
-	font-size: clamp(25px,1.7vw,33px);
+	font-size: clamp(25px, 1.7vw, 33px);
 	font-weight: bold;
 	/*font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;*/
 }
-.fax{
+
+.fax {
 	font-size: 19px;
 	font-weight: bold;
 	font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
 }
+
 @media (max-width: 569px) {
 	.company {
 		display: none;
@@ -178,51 +196,26 @@ h1{
 		background-color: #fff;
 		border-bottom: 1px solid #e34c41;
 	}
-	.nav a:hover{
-		color:#707070;
+
+	.nav a:hover {
+		color: #707070;
 		border-bottom: 2px solid #e4766e;
 	}
-	.nav ul li{
+
+	.nav ul li {
 		font-weight: 600;
-		font-size:clamp(13px, 1.4vw, 16px);
+		font-size: clamp(13px, 1.4vw, 16px);
 	}
 }
-
-/* ページトップボタン */
-/*
-#page_top{
-	display: block;
-	width: 60px;
-	height: 60px;
-	position: fixed;
-	right: 20px;
-	bottom: 15px;
-	opacity: 0.6;
-	z-index:999;
-}
-#page_top a{
-	display: block;
-	width: 60px;
-	height: 60px;
-	text-decoration: none;
-}
-#page_top a::before{
-	font-family: 'Font Awesome 5 Free';
-	font-weight: 900;
-	content: '\f139';
-	font-size: 50px;
-	color: #008dc6;
-}*/
-
 
 #page_top {
 	position: fixed;
 	bottom: 20px;
 	right: 20px;
-	/*font-size: 85%;*/
 	z-index: 999;
 }
-#page_top a{
+
+#page_top a {
 	width: 60px;
 	background-image: url(../img/page-top.png);
 	background-position: center bottom;
@@ -234,42 +227,6 @@ h1{
 	text-align: center;
 	display: block;
 }
-
-
-
-
-
-
-/* ヒーロー + ヒーロー上文字 */
-/* 不使用 */
-/*.hero {
-	height: 650px;
-	background-image: url(img/hero.jpg);
-	background-position: center;
-	background-size: cover;
-}
-
-.hero-container {
-	display: grid;
-	justify-items: center;
-	align-content: center;
-	height: 100%;
-}
-
-.hero .mv-tx {
-	margin-bottom: 42px;
-	font-family: "Montserrat", sans-serif;
-	font-size: clamp(48px, 5vw, 68px);
-	min-height: 0vw;
-	font-weight: 400;
-	line-height: 1.3;
-	text-align: center;
-}
-
-.hero p {
-	margin-bottom: 72px;
-}
-*/
 
 /* ボタン */
 .btn {
@@ -292,10 +249,9 @@ h1{
 /* 画像とテキスト */
 .imgtext {
 	padding: var(--v-space) 0;
-	/*background-color: rgba(255,255,255,0.7);*/
 }
 
-.imgtext + .imgtext {
+.imgtext+.imgtext {
 	padding-top: 0;
 	/*margin-bottom: -30px;*/
 }
@@ -303,7 +259,7 @@ h1{
 .imgtext-container {
 	display: flex;
 	flex-direction: column;
-	/*gap: clamp(45px, 6vw, 80px);*/	/* テンプレ初期値 */
+	/* テンプレ初期値 */
 	gap: clamp(15px, 5vw, 25px);
 }
 
@@ -317,23 +273,28 @@ h1{
 		flex-direction: row-reverse;
 	}
 
-	.imgtext-container > .text {
+	.imgtext-container>.text {
 		flex: 1;
 		min-width: 17em;
-  	}
-	.imgtext-container > .img {
-		/*flex: 2;*/	/* テンプレ初期値 */
+	}
+
+	.imgtext-container>.img {
+		/*flex: 2;*/
+		/* テンプレ初期値 */
 		flex: 1.5;
 	}
 }
-@media screen and (max-width: 568px){
+
+@media screen and (max-width: 568px) {
 	.imgtext {
 		padding: 30px 0;
 	}
 }
+
 /* タイトルとサブタイトル（短い線で装飾） */
 .heading-decoration {
-	/*font-size: clamp(30px, 3vw, 40px);*/	/* テンプレ初期値 */
+	/*font-size: clamp(30px, 3vw, 40px);*/
+	/* テンプレ初期値 */
 	font-size: clamp(25px, 2.3vw, 33px);
 	min-height: 0vw;
 	font-weight: 400;
@@ -351,7 +312,7 @@ h1{
 	margin-top: 0.2em;
 }
 
-.heading-decoration + p {
+.heading-decoration+p {
 	margin-top: 0.5em;
 	margin-bottom: 1em;
 	color: #6ea2b7;
@@ -366,22 +327,26 @@ h1{
 	/*background-color: #71c7d1;*/
 	background-color: #d9eef0;
 }
+
 .posts2 {
 	padding: var(--v-space) 0;
 	background-color: #f3f3f3;
 }
+
 .posts3 {
 	padding: var(--v-space) 0;
-	background-image: url(../img/bg_01.jpg);
+	background-image: url(../img/bg_kakehi.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 
 }
+
 .posts-container {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	gap: 32px 25px;	/*テンプレの初期値*/
+	gap: 32px 25px;
+	/*テンプレの初期値*/
 }
 
 @media (min-width: 569px) {
@@ -390,7 +355,7 @@ h1{
 	}
 }
 
-/* 記事一覧の中身 */
+/* 記事一覧 */
 .post a {
 	display: block;
 }
@@ -406,31 +371,20 @@ h1{
 	font-size: clamp(10px, 1.6vw, 14px);
 	min-height: 0vw;
 }
-/*
-.post img {
-	aspect-ratio: 3 / 2;
-	object-fit: cover;
-	width: 100%;
-}
-
-@supports not (aspect-ratio: 3 / 2) {
-	.post img {
-		height: 180px;
-	}
-}
-*/
 
 /* パーツの見出し */
 .heading {
 	position: absolute;
 	top: calc((var(--v-space) + 0.68em) * -1);
 	font-family: "Montserrat", sans-serif;
-	/*font-size: clamp(40px, 5.2vw, 70px);*/	/*テンプレ初期値*/
+	/*font-size: clamp(40px, 5.2vw, 70px);*/
+	/*テンプレ初期値*/
 	font-size: clamp(35px, 4vw, 65px);
 	min-height: 0vw;
 	font-weight: 300;
 	color: #897d48;
 }
+
 .heading span {
 	display: block;
 	color: #454545;
@@ -439,16 +393,17 @@ h1{
 }
 
 /* 下層 */
-.lowerPage-heading-decoration{
+.lowerPage-heading-decoration {
 	font-size: clamp(25px, 2.7vw, 32px);
 	min-height: 0vw;
-	text-align:center;
+	text-align: center;
 	font-weight: 600;
 	line-height: 1.3;
 	color: #444;
 	margin-top: 1.5em;
 	/*font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS PGothic',arial,helvetica,clean,sans-serif;*/
 }
+
 .lowerPage-heading-decoration::after {
 	display: block;
 	content: '';
@@ -456,14 +411,15 @@ h1{
 	height: 0px;
 	border-top: solid 3px #e34c41;
 	margin-top: 0.2em;
-	margin-right:auto;
-	margin-left:auto;
+	margin-right: auto;
+	margin-left: auto;
 }
-.lowerPage-heading-decoration + p.subh {
+
+.lowerPage-heading-decoration+p.subh {
 	margin-top: 0.5em;
 	margin-bottom: 3em;
 	color: #707070;
-	text-align:center;
+	text-align: center;
 	font-family: "Montserrat", sans-serif;
 	font-size: 15px;
 }
@@ -474,15 +430,19 @@ h1{
 	/*padding-bottom: var(--v-space);*/
 	background-color: #ffffff;
 }
+
 .entry01 {
 	padding-bottom: var(--v-space) 0;
 	background-color: #ffffff;
 }
+
 .entry-img img {
 	width: 100%;
-	/*max-height: 400px;*//*下層ページビジュアル*/
+	/*max-height: 400px;*/
+	/*下層ページビジュアル*/
 	object-fit: cover;
-	/*margin-bottom: calc(var(--v-space) * 2 / 3);*/	/*初期値*/
+	/*margin-bottom: calc(var(--v-space) * 2 / 3);*/
+	/*初期値*/
 	margin-bottom: calc(var(--v-space) * 1 / 3);
 }
 
@@ -496,7 +456,8 @@ h1{
 
 .entry-container {
 	font-size: clamp(15px, 2.4vw, 16px);
-	text-align: justify;/*文字両端ぞろえ*/
+	text-align: justify;
+	/*文字両端ぞろえ*/
 }
 
 .entry-container :where(h1, h2, h3, h4, h5, h6, p, figure, ul) {
@@ -510,11 +471,11 @@ h1{
 	margin: 1.8em 0;
 }
 
-.entry-container > :first-child {
+.entry-container> :first-child {
 	margin-top: 0;
 }
 
-.entry-container > :last-child {
+.entry-container> :last-child {
 	margin-bottom: 0;
 }
 

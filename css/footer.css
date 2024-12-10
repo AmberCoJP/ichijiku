@@ -2,28 +2,28 @@
 
 /* フッター部分の指定のみ記載 */
 
-
-
 /* フッター */
 .footer {
 	/*margin-top: 20px;*/
 }
 
-.pseudofooter{
+.footer-wrap {
 	padding: 40px 0 30px 0;
 	background-color: #eaeae2;
 	color: #1e1e1e;
 	font-size: 16px;
-	font-weight:600;
-	/*border-top: 1px solid #a7d2e3;*/
+	font-weight: 600;
 }
+
 .footer-container {
 	/*display: grid;
 	gap: 50px;
-	justify-items: center;*/	/*関連グループを横にする場合*/
+	justify-items: center;*/
+	/*関連グループを横にする場合*/
 }
-.connectionGp{
-	border-top:1px solid #ccc;
+
+.connectionGp {
+	border-top: 1px solid #ccc;
 	padding: 40px 0;
 }
 
@@ -34,15 +34,15 @@
 		gap: 20px;
 	}
 
-	.footer-container > .footer-site {
+	.footer-container>.footer-site {
 		margin-bottom: 40px;
 	}
 
-	.footer-container > *:not(.footer-sns) {
+	.footer-container>*:not(.footer-sns) {
 		justify-self: start;
 	}
-	
-	.footer-container > .footer-sns {
+
+	.footer-container>.footer-sns {
 		grid-column: 2;
 		grid-row: 1 / 4;
 		justify-self: end;
@@ -50,79 +50,24 @@
 	}
 }
 
-
-/* 追加コンテンツ部分 */
-.additionFoot-1{
-	background-color: #26a5b3;
-}
-.additionFoot-2{
-	background-color: #fff;
-	padding: 25px 0;
-}
-
-
-.gr{
-	display: grid;
-	grid-template-columns: clamp(320px, 40%, 40%);
-}
-
-
-
-
-
-.grid-container{
-	display: grid;
-	grid-template-columns: 1.5fr 1fr 1fr;
-	column-gap: 10px;
-	grid-template-areas:"grid1 grid2 grid3";
-}
-.grid-area1 {
-	grid-area: grid1;
-	margin-top: 10px;
-}
-.grid-area2 {
-	grid-area: grid2;
-	margin-top: 10px;
-}
-.grid-area2 div{
-	margin-bottom: 10px;
-}
-.grid-area3 {
-	grid-area: grid3;
-	margin-top: 10px;
-}
-@media screen and (max-width: 668px) {
-	.grid-container{
-		grid-template-areas:
-		"grid1 grid1 grid1"
-		"grid2 grid2 grid2"
-		"grid3 grid3 grid3"
-	}
-}
 /* フッター：SNSメニュー 元テンプレ状態の場合はflex*/
-/*.footer-sns {
+.footer-sns {
 	display: flex;
-	gap: 24px;
-	font-size: 24px;
-}*/
-.footer-sns{
-	display:flex;
 	gap: 10px;
 	font-size: 24px;
 	align-items: normal;
 	flex-flow: wrap;
 	justify-content: center;
-	margin:0 auto 50px auto;
+	margin: 0 auto 50px auto;
 }
+
 .footer-sns a.snsbtn {
 	display: grid;
 	place-items: center;
 	width: 36px;
 	aspect-ratio: 1 / 1;
-	/*background-color: #cccccc;*/
 	background-color: #fb0074;
 	color: #ffffff;
-	/*clip-path: circle(50%);*/
 	clip-path: circle(100%);
 
 }
@@ -133,17 +78,15 @@
 	}
 }
 
-
 /* フッター：テキストメニュー */
 .footer-menu {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	/*gap: 30px;*/
 }
-.footer-menu li a:hover{
-	/*display:block;*//*初期値*/
-	display:inline-block;
+
+.footer-menu li a:hover {
+	display: inline-block;
 	text-decoration: underline;
 	color: #e34c41;
 }
@@ -152,65 +95,68 @@
 
 	.footer-menu {
 		gap: 0%;
-		margin-bottom:20px;
+		margin-bottom: 20px;
 	}
 
 	.footer-menu li {
-		/*line-height:1;*/
-		display:inline-block;
+		display: inline-block;
 		width: 100%;
 		text-align: center;
 	}
-	.footer-menu li a{
-		display:inline-block;
-		/*width: 100%;*/
-		/*background-color: #eee;*/
+
+	.footer-menu li a {
+		display: inline-block;
 		padding: 10px 0px;
 	}
 
 }
 
 /* フッターコピーライト */
-.footer-copy{
+.footer-copy {
 	display: flex;
 	justify-content: center;
 	background-color: #6a6060;
 	align-items: center;
-	height:50px;
+	height: 50px;
 }
-.footer-copy p{
+
+.footer-copy p {
 	font-size: 13px;
 	color: #fff;
 }
+
 /* フッターメニュー */
-ul.footer-menu li a{
+ul.footer-menu li a {
 	line-height: 1;
 	vertical-align: middle;
 	display: inline-block;
 	white-space: nowrap;
-	font-weight:600;
-	font-size: clamp(12px,1.4vw,14px);
+	font-weight: 600;
+	font-size: clamp(12px, 1.4vw, 14px);
 }
-ul.footer-menu li::after{
+
+ul.footer-menu li::after {
 	content: "　/　";
 }
-ul.footer-menu li:last-child::after{
+
+ul.footer-menu li:last-child::after {
 	content: none;
 }
+
 @media (max-width: 568px) {
-	ul.footer-menu li a{
+	ul.footer-menu li a {
 		font-size: 14px;
 	}
-	ul.footer-menu li::after{
+
+	ul.footer-menu li::after {
 		content: none;
 	}
 }
 
-img.dis-inblo{
+img.disp-inblo {
 	display: inline-block;
 }
-img.dis-blo{
+
+img.disp-blo {
 	display: block;
 }
-
-
