@@ -175,7 +175,7 @@
 		<div class="w-container">
 			<div class="contentsbg">
 			<h2 class="lowerPage-heading-decoration mb20 tx-les02">各種ご祈祷・出張祭の受付</h2>
-			<img src="img/imgillust_01.png" alt="祈祷イメージ玉串" class="pcspwid">
+			<img src="img/sakaki.png" alt="祈祷イメージ玉串" class="pcspwid">
 			<p class="tx-c2 emp">ご祈祷の受付は常時行っております。<br>地鎮祭・各種清祓等　出張祭の受付も随時承っております。<br>
 			病気平癒・厄除・商売繁昌などに御利益があるとされています。<br>ご予約はお電話でもお受けいたしますのでお問い合わせください。</p><br>
 			<p class="c-arra2 f-xla empcolor">TEL　<a href="tel:0668573618">06-6857-3618</a></p>
@@ -198,7 +198,7 @@
 				<div class="footer-sns">
 				<div class="spwi100"><a href="index.html"><span class="f-14">刀根山の地主神　</span><span class="f-20">市軸稲荷神社</span></a></div>
 				<span class="disinlb"><img src="img/f-bakicon2.png" width="40px"></span><span class="disinlb"><img src="img/f-bakicon.png" width="40px"></span>
-				<span class="disinlb"><a href="https://www.instagram.com/ichijikuinarijinja/" class="snsbtn" target="_blank"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a></span>
+				<span class="disinlb"><a href="https://www.instagram.com/ichijikuinarijinja/" class="snsbtn" target="_blank"><img src="img/Instagram.png" width="40px"></a></span>
 				<br><br>
 				</div>
 				<p class="c-arra2"><span class="header-details">大阪府豊中市刀根山2丁目2番33号</span><br>TEL/FAX　<a href="tel:0668573618">06-6857-3618</a></p>

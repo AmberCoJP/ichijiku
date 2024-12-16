@@ -139,7 +139,7 @@ b.emphasis2 {
 /*svgアイコン*/
 .svgicon01 {
 	display: inline-block;
-	width: 32px;
+	/* width: 32px; */
 	height: 32px;
 	vertical-align: bottom;
 	margin: 0 7px 0 5px;
@@ -163,6 +163,23 @@ b.emphasis2 {
 img.imic {
 	width: 25px;
 	margin-right: 5px;
+}
+
+.sakaki {
+	margin: auto;
+	width: 10%;
+}
+
+@media screen and (max-width: 768px) {
+	.sakaki {
+		width: 20%;
+	}
+}
+
+@media screen and (max-width: 568px) {
+	.sakaki {
+		width: 25%;
+	}
 }
 
 /*文字ボタン*/
