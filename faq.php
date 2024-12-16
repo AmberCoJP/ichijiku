@@ -133,10 +133,11 @@
 
 			<hr class="no">
 			<a href="tel:0668573618">
-			<picture>
-				<source srcset="img/tel_bnr.jpg" media="(min-width: 600px)"/><!-- 幅600px以上なら表示 -->
-				<img src="img/tel_bnr2.jpg" alt="ご祈祷の受付は常時行っております。地鎮祭・各種清祓等  張祭の受付も随時承っております。ご予約はお電話でもお受けいたしますのでお問い合わせください。TEL 06-6857-3618 受付時間  09：00～17：00" width="100%"><!-- それ以外で表示 -->
-			</picture>
+				<div class="tell">
+					ご祈祷の受付は常時行っております。地鎮祭・各種清祓等  張祭の受付も随時承っております。<br>ご予約はお電話でもお受けいたしますのでお問い合わせください。
+					<div class="tell-number"><img class="phone" src="img\phone.png">TEL 06-6857-3618</div>
+					<div class="tell-time">受付時間  09：00～17：00</div>
+				</div>
 			</a>
 			<hr class="no">
 

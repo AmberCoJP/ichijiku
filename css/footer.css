@@ -66,10 +66,8 @@
 	place-items: center;
 	width: 36px;
 	aspect-ratio: 1 / 1;
-	/* background-color: #fb0074; */
 	color: #ffffff;
 	clip-path: circle(100%);
-
 }
 
 @supports not (aspect-ratio: 1 / 1) {
