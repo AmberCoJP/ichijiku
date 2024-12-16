@@ -109,18 +109,18 @@
 			<hr class="no">
 			<h3 class="ab">ご祈祷の種類</h3>
 
-			<h4 class="hh"><img src="img/pray-icon01.png" alt="商売繁昌・社運隆昌イメージアイコン" class="svgicon01">商売繁昌・社運隆昌</h4>
+			<h4 class="hh"><img src="img/torii.png" alt="商売繁昌・社運隆昌イメージアイコン" class="svgicon01">商売繁昌・社運隆昌</h4>
 			<p>当社の御祭神である稲荷大神は稲を象徴する穀物・農業の神様ですが、商工業を含め産業全体の神とされ、日本で最も広範に信仰されている神様の一つです。<br>
 			市軸大神様の御加護により、これまで多くの人々や企業が発展してきました。</p>
 
 
-			<h4 class="hh"><img src="img/pray-icon02.png" alt="病気平癒イメージアイコン" class="svgicon01">病気平癒</h4>
+			<h4 class="hh"><img src="img/omamori.png" alt="病気平癒イメージアイコン" class="svgicon01">病気平癒</h4>
 			<p>当社では初代の頃より病気平癒のご祈願で名高く、多くの方々から篤い信仰を受けてまいりました。<br>
 			現在でも市軸大神様の御加護によりお参りに来られた方々よりうれしいご報告を多くいただいております。<br>
 			お身体が一日も早く回復しますようお祈りいたします。</p>
 
 
-			<h4 class="hh"><img src="img/pray-icon03.png" alt="厄除開運イメージアイコン" class="svgicon01">厄除開運（前厄・本厄・後厄・厄明け・廻り年・方除け・災難除け）</h4>
+			<h4 class="hh"><img src="img/oharai.png" alt="厄除開運イメージアイコン" class="svgicon01">厄除開運（前厄・本厄・後厄・厄明け・廻り年・方除け・災難除け）</h4>
 			<p>人生の節目にあたる年を無事に過ごさせていただけるようお祈りいたします。</p><br>
 
 			<div class="pc">
@@ -140,13 +140,13 @@
 			<br>
 
 
-			<h4 class="hh"><img src="img/pray-icon04.png" alt="交通安全イメージアイコン" class="svgicon01">交通安全</h4>
+			<h4 class="hh"><img src="img/car.png" alt="交通安全イメージアイコン" class="svgicon01">交通安全</h4>
 			<p>当社の御祭神の御神徳に依り、長きにわたり交通安全のご祈願で名高く、多くの方々から篤く信仰されています。<br>
 			自動車 ・ 二輪車のお祓い、また日々の交通安全 ・ 道中安全を神様にお祈りいたします。</p>
 
 
 
-			<h4 class="hh"><img src="img/pray-icon05.png" alt="初宮詣（お宮参り）イメージアイコン" class="svgicon01">初宮詣（お宮参り）</h4>
+			<h4 class="hh"><img src="img/baby.png" alt="初宮詣（お宮参り）イメージアイコン" class="svgicon01">初宮詣（お宮参り）</h4>
 			<div class="flex2">
 				<div class="flex-child07">
 
@@ -162,7 +162,7 @@
 			</div>
 
 
-			<h4 class="hh"><img src="img/pray-icon06.png" alt="七五三詣（11月中）イメージアイコン" class="svgicon01">七五三詣（11月中）</h4>
+			<h4 class="hh"><img src="img/sitigo.png" alt="七五三詣（11月中）イメージアイコン" class="svgicon01">七五三詣（11月中）</h4>
 			<div class="flex2">
 				<div class="flex-child07">
 				<p class="kukuri3">※期間外の日をご希望の方は、ご相談ください。</p>
@@ -176,7 +176,7 @@
 			</div>
 
 
-			<h4 class="hh"><img src="img/pray-icon07.png" alt="各種祈願イメージアイコン" class="svgicon01">その他 各種祈願</h4>
+			<h4 class="hh"><img src="img/ema.png" alt="各種祈願イメージアイコン" class="svgicon01">その他 各種祈願</h4>
 			<p>●子授　●安産　●十三参り　●祝歳参り　●家内安全　●身体健全　●神恩感謝　●心願成就　他</p>
 
 
@@ -212,8 +212,10 @@
 
 	<section class="sec4">
 		<div class="w-container">
-			<hr class="decoline2">
-
+			<!-- <hr class="decoline2"> -->
+			<div>
+				<img src="img/sakaki.png" alt="榊" class="sakaki">
+			</div>
 			<h2 class="lowerPage-heading-decoration">厄除け祈願について</h2><br>
 			<hr class="no">
 			<div class="haba">
@@ -288,7 +290,7 @@
 				<div class="footer-sns">
 				<div class="spwi100"><a href="index.html"><span class="f-14">刀根山の地主神　</span><span class="f-20">市軸稲荷神社</span></a></div>
 				<span class="disinlb"><img src="img/f-bakicon2.png" width="40px"></span><span class="disinlb"><img src="img/f-bakicon.png" width="40px"></span>
-				<span class="disinlb"><a href="https://www.instagram.com/ichijikuinarijinja/" class="snsbtn" target="_blank"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a></span>
+				<span class="disinlb"><a href="https://www.instagram.com/ichijikuinarijinja/" class="snsbtn" target="_blank"><img src="img/Instagram.png" width="40px"></a></span>
 				<br><br>
 				</div>
 				<p class="c-arra2"><span class="header-details">大阪府豊中市刀根山2丁目2番33号</span><br>TEL/FAX　<a href="tel:0668573618">06-6857-3618</a></p>

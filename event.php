@@ -85,7 +85,7 @@
 
 			<h2 class="lowerPage-heading-decoration">祭典行事</h2>
 			<hr class="no">
-			<h3><img src="img/setsubun.png" alt="節分アイコン" class="svgicon01">市軸稲荷神社 節分祭<br class="space"><span class="space">　　</span>（毎年2月3日斎行）</h3>
+			<h3><img src="img/setubun2.png" alt="節分アイコン" class="svgicon01">市軸稲荷神社 節分祭<br class="space"><span class="space">　　</span>（毎年2月3日斎行）</h3>
 			<h4>～お多福大神～</h4>
 			<p class="emp lihei18">市軸稲荷神社では、境内末社であるお多福社にお多福大神をお祀りしています。<br>
 			当社のお多福さんは<ruby>瀨織津比咩大神<rt>せおりつひめおおかみ</rt></ruby>で、大祓詞の中に“速川の瀬に坐す神”としてみられるお祓いの神様です。<br>
@@ -134,7 +134,7 @@
 				<img src="img/event_img04.png" alt="簪祈願" width="100%" class="space"><br class="space">
 					<div class="flex2">
 						<div class="flex-child02">
-							<h6><img src="img/hana.png" alt="花アイコン" class="svgicon01">花かんざし<img src="img/hana.png" alt="花アイコン" class="svgicon01"></h6><br>
+							<h6><img src="img/hana_red.png" alt="花アイコン" class="svgicon01">花かんざし</h6><br>
 							<p class="emp lihei14">授与所にてお授けいたします。</p><br class="pc"><p class="emp lihei14">授与期間は12月1日～2月3日まで<br>※節分祭当日は授与所の場所が通常とは異なります。</p>
 						</div>
 						<div class="flex-child01">
@@ -243,7 +243,7 @@
 				<div class="footer-sns">
 				<div class="spwi100"><a href="index.html"><span class="f-14">刀根山の地主神　</span><span class="f-20">市軸稲荷神社</span></a></div>
 				<span class="disinlb"><img src="img/f-bakicon2.png" width="40px"></span><span class="disinlb"><img src="img/f-bakicon.png" width="40px"></span>
-				<span class="disinlb"><a href="https://www.instagram.com/ichijikuinarijinja/" class="snsbtn" target="_blank"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a></span>
+				<span class="disinlb"><a href="https://www.instagram.com/ichijikuinarijinja/" class="snsbtn" target="_blank"><img src="img/Instagram.png" width="40px"></a></span>
 				<br><br>
 				</div>
 				<p class="c-arra2"><span class="header-details">大阪府豊中市刀根山2丁目2番33号</span><br>TEL/FAX　<a href="tel:0668573618">06-6857-3618</a></p>

@@ -164,7 +164,7 @@
 				<div class="footer-sns">
 				<div class="spwi100"><a href="main.php"><span class="f-14">刀根山の地主神　</span><span class="f-20">市軸稲荷神社</span></a></div>
 				<span class="disinlb"><img src="img/f-bakicon2.png" width="40px"></span><span class="disinlb"><img src="img/f-bakicon.png" width="40px"></span>
-				<span class="disinlb"><a href="https://www.instagram.com/ichijikuinarijinja/" class="snsbtn" target="_blank"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a></span>
+				<span class="disinlb"><a href="https://www.instagram.com/ichijikuinarijinja/" class="snsbtn" target="_blank"><img src="img/Instagram.png" width="40px"></a></span>
 				<br><br>
 				</div>
 				<p class="c-arra2"><span class="header-details">大阪府豊中市刀根山2丁目2番33号</span><br>TEL/FAX　<a href="tel:0668573618">06-6857-3618</a></p>
