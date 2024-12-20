@@ -723,13 +723,13 @@ hr.no {
 
 hr.decoline {
 	background: none;
-	/*打消し*/
-	background-image: url(../img/decoline.png);
-	background-position: center center;
-	background-repeat: no-repeat;
-	height: 65px;
-	margin: 30px 0px 50px 0px;
-	border: 0;
+    background-image: url(../img/decoline.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80px;
+    margin: 30px 0px 50px 0px;
+    border: 0;
 }
 
 hr.decoline2 {

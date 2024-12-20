@@ -216,16 +216,16 @@ h1 {
 }
 
 #page_top a {
-	width: 60px;
-	background-image: url(../img/page-top.png);
-	background-position: center bottom;
-	background-repeat: no-repeat;
-	background-size: contain;
-	text-decoration: none;
-	color: #fff;
-	padding: 30px 0;
-	text-align: center;
-	display: block;
+	width: 80px;
+    background-image: url(../img/page-top.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-decoration: none;
+    color: #fff;
+    padding: 40px 15px;
+    text-align: center;
+    display: block;
 }
 
 /* ボタン */
